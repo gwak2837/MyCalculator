@@ -50,5 +50,6 @@ Data calculatePostfix(Stack* pstack);
 Data operation(Data d, Data f, Operator oper);
 int getOperationPriority(Operator oper);
 int whoPreceedOperator(Operator oper1, Operator oper2);
+Operator charToOperator(char oper);
 
 #endif
