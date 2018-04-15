@@ -214,6 +214,10 @@ Data operation(Data operand1, Data operand2, Operator oper)
 		return operand1 * operand2;
 	case dividedBy:
 		return operand1 / operand2;
+	default:
+		puts("\nThe unvalid four fundamental arithmetic operations. Exit program...\n");
+		system("pause");
+		exit(3);
 	}
 }
 
